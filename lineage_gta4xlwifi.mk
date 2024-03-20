@@ -29,9 +29,6 @@ TARGET_SCREEN_WIDTH := 1200
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
-## Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := gta4xlwifi
 PRODUCT_NAME := lineage_gta4xlwifi
