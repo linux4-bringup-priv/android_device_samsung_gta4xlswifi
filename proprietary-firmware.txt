@@ -1,4 +1,4 @@
-# Firmware for model SM-P610 - from Samsung package version P610XXS3FWD2
+# Firmware for model SM-P610 - from Samsung package version P610XXS4FXA1
 
 cm.bin_SM-P610
 keystorage.bin_SM-P610
