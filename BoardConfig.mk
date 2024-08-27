@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2021 The LineageOS Project
+# Copyright (C) 2020-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,15 +14,15 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/gta4xl-common/BoardConfigCommon.mk
+include device/samsung/gta4xls-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/gta4xlwifi/BoardConfigVendor.mk
+include vendor/samsung/gta4xlswifi/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/gta4xlwifi
+DEVICE_PATH := device/samsung/gta4xlswifi
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9611-gta4xlwifi_defconfig
+TARGET_KERNEL_CONFIG := s5e8825-gta4xlswifi_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

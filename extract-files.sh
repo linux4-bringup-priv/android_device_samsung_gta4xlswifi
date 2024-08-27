@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=gta4xlwifi
-export DEVICE_COMMON=gta4xl-common
+export DEVICE=gta4xlswifi
+export DEVICE_COMMON=gta4xls-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
