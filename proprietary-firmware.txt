@@ -1,12 +1,18 @@
-# Firmware for model SM-P610 - from Samsung package version P610XXS5FXE4
+# Firmware for model SM-P620 - from Samsung package version P620XXS3AXH2
 
-cm.bin_SM-P610
-keystorage.bin_SM-P610
-sboot.bin_SM-P610
-uh.bin_SM-P610
-up_param.bin_SM-P610
+fld.bin_SM-P620
+harx.bin_SM-P620
+keystorage.bin_SM-P620
+ldfw.img_SM-P620
+modem.bin_SM-P620
+modem_debug.bin_SM-P620
+sboot.bin_SM-P620
+tzsw.img_SM-P620
+tzar.img_SM-P620
+uh.bin_SM-P620
+up_param.bin_SM-P620
 
 # File containing the supported models, one per line
 models
 # Files containing Samsung package version for supported models
-version_SM-P610
+version_SM-P620
