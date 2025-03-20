@@ -1,7 +1,7 @@
 # Proprietary files - from Samsung package version P620XXS3AXH2, unless pinned
 
 ## Audio - Dolby Atmos
--vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswdap.so
 
 ## Audio Firmware
 vendor/firmware/calliope_sram.bin
@@ -10,8 +10,7 @@ vendor/firmware/calliope_sram.bin
 vendor/etc/wifi/mx140_bt.hcf
 
 ## Camera dependencies
--vendor/lib/libexynoscamera3.so
--vendor/lib64/libexynoscamera3.so
+vendor/lib64/libexynoscamera3.so
 
 ## Exynos Multi-Format Codec (MFC) Firmware
 vendor/firmware/mfc_fw.bin
