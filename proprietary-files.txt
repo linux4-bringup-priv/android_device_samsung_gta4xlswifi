@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version P620XXS5AYB4, unless pinned
+# Proprietary files - from Samsung package version P620XXS7BYH2, unless pinned
 
 ## Audio - Dolby Atmos
 vendor/lib/soundfx/libswdap.so
